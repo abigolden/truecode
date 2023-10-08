@@ -1,8 +1,8 @@
-package main
+package bmi
 
 import "fmt"
 
-func main() {
+func Bmi() {
 
 	var weight float32
 	var height float32
@@ -22,5 +22,4 @@ func main() {
 	} else {
 		fmt.Println("'You are overweight, I know, the pandemic has affected us all'")
 	}
-
 }

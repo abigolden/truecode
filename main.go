@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"trucode-projects/bmi"
 )
 
 func main() {
@@ -16,7 +17,9 @@ func main() {
 
 	switch projectName {
 	case "bmi":
-		fmt.Println("Ejecutar bmi")
+		fmt.Println("EJECUTANDO BMI:")
+		fmt.Println("-----")
+		bmi.Bmi()
 	case "evenodd":
 		fmt.Println("Ejecutar evenood")
 	case "foobar":
